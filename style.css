@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Poppins;
+}
+
+.hero{
+    min-height:calc(15vw + 10vh);
+}
+.product{
+    max-height:200px;
+    max-width:400px;
+    min-width: 320px;
+    min-height:180px;
+    
+}
+
+.product a{
+    height:100%;
+    width:100%;
+    
+}
+
+.discord{
+    width:min-content
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.social{
+    transform:scale(1);
+    transition:200ms ease all
+}
+
+.social:hover{
+    transform: scale(1.2);
+    
+}
+
+ul{
+    list-style:none
+}
+
+.thumbnail{
+    background:linear-gradient(to left,rgba(0,0,0,0), rgba(0,0,0,0)), url("./thumbnail2.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    transition: 100ms linear all;
+    transform: scale(1);
+}
+
+.thumbnail:hover{
+    background:linear-gradient(to left,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./thumbnail2.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    transform: scale(1.05);
+}
+
+.preview-thumb{
+    box-sizing: border-box;
+    box-shadow:0px 0px 30px 5px rgb(80,80,80);
+}
