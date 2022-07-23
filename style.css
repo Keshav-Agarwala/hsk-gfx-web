@@ -24,7 +24,7 @@
 }
 
 .discord{
-    width:min-content
+    width:50%
 }
 
 a{
@@ -70,7 +70,8 @@ ul{
 .animation{
     background:linear-gradient(to left,rgba(0,0,0,0), rgba(0,0,0,0)), url("./subscribe.png");
     background-repeat:no-repeat;
-    background-size:100% 100%;
+    background-size:100% 200%;
+    background-position:center ;
     transition: 100ms linear all;
     transform: scale(1);
 }
@@ -78,6 +79,13 @@ ul{
 .animation:hover{
     background:linear-gradient(to left,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./subscribe.png");
     background-repeat:no-repeat;
-    background-size: fit;
+    background-size:100% 200%;
+    background-position:center ;
     transform: scale(1.05);
+}
+
+.contact{
+    flex-grow: 1;
+    flex-basis: 1;
+    text-align: center;
 }
