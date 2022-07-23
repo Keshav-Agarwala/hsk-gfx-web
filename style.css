@@ -85,7 +85,6 @@ ul{
 }
 
 .contact{
-    flex-grow: 1;
     flex-basis: 1;
     text-align: center;
 }
