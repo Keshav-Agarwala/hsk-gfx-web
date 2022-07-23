@@ -70,7 +70,7 @@ ul{
 .animation{
     background:linear-gradient(to left,rgba(0,0,0,0), rgba(0,0,0,0)), url("./subscribe.png");
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size:100% 100%;
     transition: 100ms linear all;
     transform: scale(1);
 }
@@ -78,6 +78,6 @@ ul{
 .animation:hover{
     background:linear-gradient(to left,rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./subscribe.png");
     background-repeat:no-repeat;
-    background-size: contain;
+    background-size: fit;
     transform: scale(1.05);
 }
